@@ -1,0 +1,136 @@
+>SINGLE LINE NOTES COLLIDING WITH OTHER ELEMENT TYPES<
+
+VERSION 5
+
+>2024 - 02 - 14<
+
+>**SCENE HEADING**<
+
+[[Prefix note.]]INT. HOUSE - NIGHT - FLASHBACK
+
+INT. HOUSE - NIGHT [[INLINE NOTE.]]- FLASHBACK
+
+INT. HOUSE - NIGHT - FLASHBACK[[TRAILING NOTE]]
+
+===
+
+>**ACTION**<
+
+[[Prefix note.]]This is some action. Some more action. 
+This is some action. [[Inline note.]]Some more action. 
+This is some action. Some more action. [[Trailing note]]
+
+===
+
+>**CHARACTER**<
+
+>_FORCED BEFORE PREFIX NOTE_<
+
+@[[Prefix note.]]CHARACTER (V.O.)
+
+>_FORCED AFTER PREFIX NOTE_<
+
+[[Prefix note.]]@CHARACTER (V.O.)
+
+>_UNFORCED WITH PREFIX NOTE_<
+
+[[Prefix note.]]CHARACTER (V.O.)
+
+CHARACTER [[Inline note.]](V.O.) 
+
+CHARACTER (V.O.) [[Trailing note]]
+
+===
+
+>**DIALOGUE**<
+
+@CHARACTER
+[[Prefix note.]]This is some dialogue. Some more dialogue.
+
+@CHARACTER
+This is some dialogue. [[Inline note.]]Some more dialogue. 
+
+@CHARACTER
+This is some dialogue. Some more dialogue. [[Trailing note]]
+
+===
+
+>**PARENTHETICAL**<
+
+>_PREFIX NOTE BEFORE PARENTHESES_<
+
+@CHARACTER
+[[Prefix note.]](Whispering)
+This is some dialogue.
+
+>_PREFIX NOTE AFTER PARENTHESES_<
+
+@CHARACTER
+([[Prefix note.]]Whispering)
+This is some dialogue.
+
+>_INLINE_<
+
+@CHARACTER
+(Whispering[[Inline note.]])
+This is some dialogue.
+
+>_TRAILING_<
+
+@CHARACTER
+(Whispering)[[Trailing note]]
+This is some dialogue.
+
+===
+
+>**TRANSITION**<
+
+>_FORCED_<
+>[[Prefix note.]]CUT TO:
+>CUT[[Inline note.]] TO:
+>CUT TO:[[Trailing note.]]
+>_UNFORCED_<
+[[Prefix note.]]CUT TO:
+CUT[[Inline note.]] TO:
+CUT TO:[[Trailing note.]]
+
+===
+
+>**LYRICS**<
+
+>_TILDE BEFORE PREFIXING NOTE_<
+
+~Somebody once told me,
+~[[Prefix note.]]The world was going to roll me
+
+>_TILDE AFTER PREFIXING NOTE_<
+
+~Somebody once told me,
+[[Prefix note.]]~The world was going to roll me
+
+~Somebody once told me,
+~The world [[Inline Note.]] was going to roll me 
+
+~Somebody once told me,
+~The world was going to roll me [[Trailing note.]]
+
+===
+
+>**CENTERED TEXT**<
+
+>_ARROWS OUTSIDE NOTES_<
+
+>[[Prefix note.]]ACT TWO<
+
+>ACT TWO[[Trailing Note]]<
+
+>_ARROWS BETWEEN TEXT AND NOTES_<
+
+
+[[Prefix note.]]>ACT TWO<
+
+>ACT TWO<[[Trailing Note]]
+
+>INLINE NOTE<
+
+>ACT [[Inline Note]]TWO<
