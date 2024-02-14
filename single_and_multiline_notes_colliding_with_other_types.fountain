@@ -1,0 +1,346 @@
+>NOTES COLLIDING WITH OTHER ELEMENT TYPES<
+VERSION 4
+>2024 - 02 - 14<
+
+>**SCENE HEADING**<
+
+!---- Single-Line Notes
+
+[[Prefix note.]]INT. HOUSE - NIGHT - FLASHBACK
+
+INT. HOUSE - NIGHT [[INLINE NOTE.]]- FLASHBACK
+
+INT. HOUSE - NIGHT - FLASHBACK[[TRAILING NOTE]]
+
+!---- Multiline Notes
+
+[[Multiline 
+  
+Prefix note.]]INT. HOUSE - NIGHT - FLASHBACK
+
+INT. HOUSE - NIGHT [[MULTILINE
+  
+INLINE NOTE.]]- FLASHBACK
+
+INT. HOUSE - NIGHT - FLASHBACK[[MULTILINE 
+  
+TRAILING NOTE ]]
+
+===
+
+>**ACTION**<
+
+!---- Single-Line Notes
+
+[[Prefix note.]]This is some action. Some more action. 
+This is some action. [[Inline note.]]Some more action. 
+This is some action. Some more action. [[Trailing note]]
+
+!---- Multiline Notes
+
+[[Multiline 
+  
+Prefix note.]]This is some action. Some more action. 
+A different action line.
+
+This is some action. [[Multiline
+  
+Inline note.]]Some more action. 
+A different action line.
+
+This is some action. Some more action. [[Multiline 
+  
+Trailing note ]]
+A different action line.
+
+===
+
+>**CHARACTER**<
+
+!---- Single-Line Notes
+
+>_FORCED BEFORE PREFIX NOTE_<
+
+@[[Prefix note.]]CHARACTER (V.O.)
+
+>_FORCED AFTER PREFIX NOTE_<
+
+[[Prefix note.]]@CHARACTER (V.O.)
+
+>_UNFORCED WITH PREFIX NOTE_<
+
+[[Prefix note.]]CHARACTER (V.O.)
+
+CHARACTER [[Inline note.]](V.O.) 
+
+CHARACTER (V.O.) [[Trailing note]]
+
+!---- Multiline Notes
+
+>_FORCED BEFORE PREFIX NOTE_<
+
+@[[Multiline 
+  
+Prefix note.]]CHARACTER (V.O.)
+Some potential dialogue?
+
+>_FORCED AFTER PREFIX NOTE_<
+
+[[Multiline 
+  
+Prefix note.]]@CHARACTER (V.O.)
+Some potential dialogue?
+
+>_UNFORCED WITH PREFIX NOTE_<
+
+[[Multiline 
+  
+Prefix note.]]@CHARACTER (V.O.)
+Some potential dialogue?
+
+CHARACTER [[Multiline
+  
+Inline note.]](V.O.)
+Some potential dialogue?
+
+CHARACTER (V.O.)[[Multiline 
+  
+Trailing note ]]
+Some potential dialogue?
+
+===
+
+>**DIALOGUE**<
+
+!---- Single-Line Notes
+
+@CHARACTER
+[[Prefix note.]]This is some dialogue. Some more dialogue.
+
+@CHARACTER
+This is some dialogue. [[Inline note.]]Some more dialogue. 
+
+@CHARACTER
+This is some dialogue. Some more dialogue. [[Trailing note]]
+
+!---- Multiline Notes
+
+@CHARACTER
+[[Multiline
+  
+Prefix note.]]This is some dialogue. Some more dialogue. 
+Another dialogue line.
+
+@CHARACTER
+This is some dialogue. [[Multiline
+  
+Inline note.]]Some more dialogue. 
+Another dialogue line.
+
+@CHARACTER
+This is some dialogue. Some more dialogue. [[Multiline 
+  
+Trailing note ]]
+Another dialogue line.
+
+===
+
+>**PARENTHETICAL**<
+
+!---- Single-Line Notes
+
+>_PREFIX NOTE BEFORE PARENTHESES_<
+
+@CHARACTER
+[[Prefix note.]](Whispering)
+This is some dialogue.
+
+>_PREFIX NOTE AFTER PARENTHESES_<
+
+@CHARACTER
+([[Prefix note.]]Whispering)
+This is some dialogue.
+
+>_INLINE_<
+
+@CHARACTER
+(Whispering[[Inline note.]])
+This is some dialogue.
+
+>_TRAILING_<
+
+@CHARACTER
+(Whispering)[[Trailing note]]
+This is some dialogue.
+
+!---- Multiline Notes
+
+>_PREFIX NOTE BEFORE PARENTHESES_<
+
+@CHARACTER
+([[Multiline
+  
+Prefix note.]]Whispering)
+This is some dialogue.
+
+
+>_PREFIX NOTE AFTER PARENTHESES_<
+
+@CHARACTER
+[[Multiline
+  
+Prefix note.]](Whispering)
+This is some dialogue.
+
+@CHARACTER
+(Whispering[[Multiline
+  
+Inline note.]])
+This is some dialogue.
+
+@CHARACTER
+(Whispering)[[Multiline
+  
+Trailing note]]
+This is some dialogue.
+
+===
+
+>**TRANSITION**<
+
+!---- Single-Line Notes
+>_FORCED_<
+>[[Prefix note.]]CUT TO:
+>CUT[[Inline note.]] TO:
+>CUT TO:[[Trailing note.]]
+>_UNFORCED_<
+[[Prefix note.]]CUT TO:
+CUT[[Inline note.]] TO:
+CUT TO:[[Trailing note.]]
+
+!---- Multiline Notes
+>_FORCED_<
+
+>[[MULTILINE
+  
+PREFIX NOTE.]]CUT TO:
+
+>CUT[[MULTILINE
+  
+INLINE NOTE.]] TO:
+
+>CUT TO:[[MULTLINE
+  
+TRAILING NOTE.]]
+
+>_UNFORCED_<
+
+[[Multiline
+  
+Prefix note.]]CUT TO:
+
+CUT[[Multiline
+  
+Inline note.]] TO:
+
+CUT TO:[[Multline
+  
+Trailing note.]]
+
+===
+
+>**LYRICS**<
+
+!---- Single-Line Notes
+>_TILDE BEFORE PREFIXING NOTE_<
+
+~Somebody once told me,
+~[[Prefix note.]]The world was going to roll me
+
+>_TILDE AFTER PREFIXING NOTE_<
+
+~Somebody once told me,
+[[Prefix note.]]~The world was going to roll me
+
+~Somebody once told me,
+~The world [[Inline Note.]] was going to roll me 
+
+~Somebody once told me,
+~The world was going to roll me [[Trailing note.]]
+
+!---- Multiline Notes
+
+>_TILDE BEFORE PREFIXING NOTE_<
+
+~Somebody once told me,
+~[[Multiline
+  
+Prefix note.]]The world was going to roll me
+
+>_TILDE AFTER PREFIXING NOTE_<
+
+~Somebody once told me,
+[[Multiline
+  
+Prefix note.]]~The world was going to roll me
+
+~Somebody once told me,
+~The world [[Multiline
+  
+Inline Note.]] was going to roll me
+
+~Somebody once told me,
+~The world was going to roll me [[Multiline
+  
+Trailing note.]]
+
+===
+
+>**CENTERED TEXT**<
+
+!---- Single-Line Notes
+
+>_ARROWS OUTSIDE NOTES_<
+
+>[[Prefix note.]]ACT TWO<
+
+>ACT TWO[[Trailing Note]]<
+
+>_ARROWS BETWEEN TEXT AND NOTES_<
+
+
+[[Prefix note.]]>ACT TWO<
+
+>ACT TWO<[[Trailing Note]]
+
+>INLINE NOTE<
+
+>ACT [[Inline Note]]TWO<
+
+!---- Multiline Notes
+
+>_ARROWS OUTSIDE NOTES_<
+
+>[[Multiline
+  
+Prefix note.]]ACT TWO<
+
+>ACT TWO[[Multiline
+  
+Trailing Note]]<
+
+>_ARROWS BETWEEN TEXT AND NOTES_<
+
+[[Multiline
+  
+Prefix note.]]>ACT TWO<
+
+>ACT TWO<[[Multiline
+  
+Trailing Note]]
+
+>_INLINE NOTE_<
+
+>ACT [[Multiline
+  
+Inline Note]]TWO<
